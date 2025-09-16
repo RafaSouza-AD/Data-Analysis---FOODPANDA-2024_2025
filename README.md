@@ -1,7 +1,7 @@
 # Dashboard Foodpanda - Análise de Dados
 
 ## Descrição
-Este dashboard interativo foi desenvolvido com base na análise dos scripts Python fornecidos (`data_analysis.py`, `data_stats.py` e `EDA.py`) e apresenta insights detalhados sobre os dados do Foodpanda de forma visual e interativa.
+Este dashboard interativo foi desenvolvido com base na análise dos scripts Python fornecidos (`data_analysis.py`, `data_stats.py`, `rankings.py`, e `EDA.py`) e apresenta insights detalhados sobre os dados do Foodpanda de forma visual e interativa.
 
 ## Funcionalidades
 
@@ -68,7 +68,7 @@ streamlit run dashboard.py
 
 **Nota:** Se você encontrar um erro relacionado a `width='stretch'` em `st.dataframe`, por favor, atualize seu Streamlit ou use `use_container_width=True` para essa função, pois o comportamento pode variar entre as versões.
 
-O dashboard estará disponível em: `http://localhost:8501`
+O dashboard estará disponível em: `https://8501-i9cm9aa1ixdl09mttk8cz-7dbaccdc.manus.computer`
 
 ## Estrutura dos Dados
 O dashboard utiliza o arquivo `manipulated_foodpanda_analysis_dataset.csv` que contém as seguintes colunas principais:
